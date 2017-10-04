@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.marge-top {
+	margin-top: 9em;
+}
+
+.padding-top {
+	padding-top: 2%;
+}
+.marge-bot {
+	margin-bottom: 2%;
+}
+
+.border {
+	border-radius: 15px;
+}
+.btn {
+	margin-left: 2%;
+}
+
+/*[class*="col-"],
+footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}*/

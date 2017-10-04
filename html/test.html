@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>annonces</title>
+</head>
+<body>
+
+ <div class="col-sm-12">
+     <div class="col-sm-4 col-sm-offset-5">
+       <button id="ajouterAnnonce" type="button" class="btn btn-primary btn-lg size-20" data-toggle="modal" data-target="#exampleModal">
+         Déposez une annonce
+       </button>
+
+
+       <!-- Modal -->
+       <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header bg-primary">
+               <h5 class="modal-title size-20" id="exampleModalLabel">Déposez votre annonce</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+               <!-- formulaire ici -->
+               <div class="btn-group">
+                 <button type="button" class="btn btn-primary btn-lg size-20 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expended="false">Rubriques</button>
+                 <div class="dropdown-menu dropdown-menu-right bg-primary">
+                   <a href="#" class="dropdown-item text-black size-15">Immobilier</a>
+                   <a href="#" class="dropdown-item text-black size-15">Vacances</a>
+                 </div>
+               </div>
+             </div>
+             <div class="modal-body">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-primary btn-lg size-20 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expended="false"">Sous-Rubriques</button>
+                 <div class="dropdown-menu dropdown-menu-right bg-primary">
+                   <a href="#" class="dropdown-item text-black size-15">Ventes</a>
+                   <a href="#" class="dropdown-item text-black size-15">Location</a>
+                   <a href="#" class="dropdown-item text-black size-15">Colocations</a>
+                 </div>
+               </div>
+             </div>
+             <div class="modal-body">
+               <div class="form-group">
+                 <label for="Texte">Entrez votre annonce</label>
+                 <textarea name="commentaire" id="comment" cols="30" rows="5" class="form-control size-15"></textarea>
+               </div>
+               <label for="photo">Inserez vos photos</label>
+               <span>
+                 <label class="btn btn-primary btn-lg size-15 btn-file">
+                   Parcourir... <input type="file" style="display: none;">
+                 </label>
+               </span>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-danger btn-lg size-15" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary btn-lg size-15">Validez</button>
+
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../Js/annonce.js"></script>
+</body>
+</html>

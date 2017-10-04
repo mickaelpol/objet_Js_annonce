@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.marge-top {
+	margin-top: 2em;
+}
+
+/*[class*="col-"],
+footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}*/
+.text-white {
+	color: #000;
+}
+.text-black {
+	color: #fff;
+}
+
+.size-15 {
+	font-size: 15px;
+}
+
+.size-20 {
+	font-size: 20px;
+}
+
+.taille {
+	font-size: 3em;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #31B0D5;
+}
+
+.padding-top {
+	padding-top: 5em;
+}
